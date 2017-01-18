@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta http-equiv="Content-Type" content="text/html" />
+  <meta name="renderer" content="webkit" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+	<title>外访单</title>
+	<style type="text/css">
+		html{color:#000;overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}html,body{font-size:10px;font-family:"Microsoft YaHei",sans-serif,Arial}body,div,h1,h2,h3,p{margin:0;padding:0}h1{text-align:center;font-size:12px;margin:20px 0 30px 0}tr td:nth-child(odd){font-weight:bold}.f16{font-size:8px}.fl{float:left}.fr{float:right}.clearfix::after{clear:both;content:" ";display:block;font-size:0;height:0;visibility:hidden}.wrap{padding:50px 70px;background-color:white;margin:0 auto;position:absolute}.headerIcon{width:100%}.headerIcon img{display:block;width:100%}.header,.footer{margin:10px 0}.t1 td{width:87px}.t1{margin-top:-2px;position:relative;top:-2px}.t1 tr td{width:50px}.t1 tr td:nth-child(odd){padding:0 2px;text-align:center}.t1 tr td.add{width:56px}.checkBox{display:inline-block;width:8px;height:8px;border:1px solid black}.line{width:100%;height:10px}
+	</style>
+</head>
+<body>
+	<div class="wrap f16">
+		<div class="headerIcon">
+			<img src="../images/header.png" />
+		</div>
+		<h1>外访单</h1>
+		<div class="header f16 clearfix">
+			<div class="fl">分配日期：&nbsp;&nbsp;###year###/ ###month### / ###day### </div>
+			<div class="fr">案件编号：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+		</div>
+		<table class="t1" border="1" cellspacing="0" cellpadding="0" width="700px">
+			<tr align="center" height="34px">
+				<td>客户姓名</td>
+				<td>###customerName###</td>
+				<td>身份证</td>
+				<td colspan="3">###IdCardNo###</td>
+				<td>产品类型</td>
+				<td>###projectType###</td>
+			</tr>
+			<tr align="center" height="34px">
+				<td>提现期数</td>
+				<td>###term###</td>
+				<td>已还期数</td>
+				<td>###alreadyRepaymentTerm###</td>
+				<td>逾期天数</td>
+				<td>-###overdueDays###</td>
+				<td>逾期日期</td>
+				<td></td>
+			</tr>
+			<tr align="center" height="34px">
+				<td>提现金额</td>
+				<td>###cashAmount###</td>
+				<td>每期金额</td>
+				<td>###repaymentAmount###</td>
+				<td>逾期金额</td>
+				<td>###currentshouldReturnAmount###</td>
+				<td>结清金额</td>
+				<td>###settleAccounts###</td>
+			</tr>
+			<tr align="center" height="34px">
+				<td>扣款账号</td>
+				<td colspan="2">###cashOutCardNo###</td>
+				<td>开户银行</td>
+				<td colspan="2">###cashOutBankName###</td>
+				<td>申请人</td>
+				<td>###createUser###</td>
+			</tr>
+			<tr height="170px">
+				<td align="center">外访地址<br/>及备注</td>
+				<td colspan="7" valign="top" style="text-align: left;">
+					<div class="line" ></div>
+					&nbsp;&nbsp;&nbsp;&nbsp;###housePropertyAddress###<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;###liveNowAddress###<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;###companyAddress###<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;###otherAddress###<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;###remarks###<br/>
+				</td>
+			</tr>
+			<tr height="170px">
+				<td align="center">联系方法</td>
+				<td colspan="7" valign="top" style="text-align: left;">
+					<div class="line"></div>
+					
+				</td>
+			</tr>
+			<tr align="center">
+				<td>还款能力</td>
+				<td colspan="1" style="text-align: left;">
+					口&nbsp;有&nbsp;
+					口&nbsp;部分<br/>
+					口&nbsp;无&nbsp;
+					口&nbsp;无法判断
+				</td>
+				<td>录音编号</td>
+				<td colspan="1"></td>
+				<td>相片编号</td>
+				<td colspan="1"></td>
+				<td>外访地址</td>
+				<td class="add" align="left">
+					口&nbsp;有效<br/>
+					口&nbsp;无效
+				</td>
+			</tr>
+			<tr>
+				<td align="center">外访情况</td>
+				<td colspan="7" style="text-align: left;">
+					口&nbsp;确认&nbsp;
+					口&nbsp;搬走(楼宇已拆)&nbsp;
+					口&nbsp;无法判断&nbsp;
+					口&nbsp;虚假(无人居住、地址不详)<br/>
+					口&nbsp;新地址：
+					<span style="text-decoration: underline;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					<span>&nbsp;&nbsp;新号码：</span>
+					<span style="text-decoration: underline;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				</td>
+			</tr>
+			<tr height="170px">
+				<td align="center">外访反馈</td>
+				<td colspan="7" valign="top" style="text-align: left;">
+					<div class="line"></div>
+					
+				</td>
+			</tr>
+		</table>
+		<div class="footer f16 clearfix">
+			<div class="fl">外访专员：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			
+			</div>
+			<div class="fr">外访日期：###year### 年  ###month###  月 ###day###  日
+			</div>
+		</div>
+	</div>
+</body>
+</html>
